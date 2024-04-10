@@ -1,0 +1,41 @@
+.FirstNewTitle{
+    width: 70%;
+}
+.notaryBox{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.notarySmallText{
+    font-weight: 400;
+}
+.dengueImage{
+    width: 70%;
+}
+@media (max-width: 900px) {
+    .notaryBox{
+        gap: 10px;
+    }
+    .notaryTextBox h3{
+        font-size: 0.9em;
+    }    
+    .notaryBox img{
+        width: 60px;
+    }
+}
+@media (max-width: 600px) {
+    .FirstNewContent h2{
+        font-size: 2em;
+    }
+    .FirstNewContent p{
+        font-size: 1em;
+    }
+    .notaryTextBox h3{
+        font-size: 0.6em;
+    }
+    .notaryBox img{
+        width: 40px;
+    }
+}
+
